@@ -24,7 +24,7 @@ namespace tutorial.Tests.Controllers
             Assert.AreEqual(77, result.Count());
         }
 
-        [TestMethod]
+ /*       [TestMethod]
         public void GetById()
         {
             // Arrange
@@ -36,6 +36,6 @@ namespace tutorial.Tests.Controllers
             // Assert
             Assert.IsNotNull(product);
             Assert.AreEqual("Chef Anton's Gumbo Mix", product.ProductName);
-        }
+        } */
     }
 }
