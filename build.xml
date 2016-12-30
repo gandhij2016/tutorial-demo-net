@@ -7,11 +7,11 @@
 
   <property name="mstest.exe" value="C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\MSTest.exe" />
 
-  <property name="dotcover.exe" value="D:\TeamCity\buildAgent\tools\dotCover\dotcover.exe" />
+  <property name="dotcover.exe" value="C:\Users\Visual Studio\AppData\Local\JetBrains\Installations\dotCover07\dotcover.exe" />
   
   <property name="msbuild.exe" value="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe" />
   
-  <property name="nuget.exe" value="D:\tools\nuget.exe" />
+  <property name="nuget.exe" value="C:\tools\nuget.exe" />
 
   <target name="init" depends="clean">
     <mkdir dir="${output.dir}" />
